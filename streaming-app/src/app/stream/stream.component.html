@@ -1,0 +1,12 @@
+<div style="text-align: center; margin: 20px;">
+    <h1>Streaming API Demo</h1>
+    <button (click)="fetchStream()" [disabled]="loading">Fetch Stream</button>
+    <textarea
+      rows="10"
+      cols="50"
+      [value]="streamResponse"
+      readonly
+      style="margin-top: 20px; display: block;"
+    ></textarea>
+  </div>
+  
